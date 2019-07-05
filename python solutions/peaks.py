@@ -42,3 +42,10 @@ def pick_peaks(arr):
             _out["peaks"].append(arr[i])
         '''
     return _out    
+
+def test():
+    assert pick_peaks([3, 2, 3, 6, 4, 1, 2, 3, 2, 1, 2, 2, 2, 1]) == {'pos': [3, 7, 10], 'peaks': [6, 3, 2]}
+
+if __name__ == "__main__":
+   print(pick_peaks([3, 2, 3, 6, 4, 1, 2, 3, 2, 1, 2, 2, 2, 1]))
+   
