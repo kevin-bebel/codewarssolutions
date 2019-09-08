@@ -39,4 +39,8 @@ def getHex(num):
 
     return _hex.upper()
 
-print(rgb(1, 2, 3))
+print(rgb(255, 275, 234))
+
+'''
+    
+'''
